@@ -1,4 +1,4 @@
-package kahoot;
+package kahoot.domain;
 
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
@@ -8,8 +8,8 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static kahoot.QuizMaker.RADIO_BUTTONS;
-import static kahoot.QuizMaker.TOGGLE_GROUPS;
+import static kahoot.App.RADIO_BUTTONS;
+import static kahoot.App.TOGGLE_GROUPS;
 
 public class Quiz {
     public static final ArrayList<Question> QUESTION_LIST = new ArrayList<>();

@@ -4,4 +4,7 @@ module kahoot {
     requires javafx.base;
 
     exports kahoot;
+    exports kahoot.style;
+    exports kahoot.exception;
+    exports kahoot.domain;
 }

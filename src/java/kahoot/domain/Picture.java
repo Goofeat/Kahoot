@@ -1,7 +1,7 @@
-package kahoot;
+package kahoot.domain;
 
-import static kahoot.Quiz.QUESTION_LIST;
-import static kahoot.QuizMaker.currentQuestion;
+import static kahoot.domain.Quiz.QUESTION_LIST;
+import static kahoot.App.currentQuestion;
 
 public class Picture extends Question {
 

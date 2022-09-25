@@ -1,4 +1,4 @@
-package kahoot;
+package kahoot.domain;
 
 public abstract class Question {
     private String description;

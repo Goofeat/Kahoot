@@ -1,11 +1,11 @@
-package kahoot;
+package kahoot.domain;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-import static kahoot.Quiz.QUESTION_LIST;
-import static kahoot.QuizMaker.currentQuestion;
+import static kahoot.domain.Quiz.QUESTION_LIST;
+import static kahoot.App.currentQuestion;
 
 public class Test extends Question {
     private final int numberOfOptions = 4;

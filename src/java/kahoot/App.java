@@ -23,6 +23,10 @@ import javafx.scene.text.TextAlignment;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import kahoot.domain.FillIn;
+import kahoot.domain.Picture;
+import kahoot.domain.Quiz;
+import kahoot.domain.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,10 +34,10 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import static kahoot.Quiz.QUESTION_LIST;
-import static kahoot.StyleProject.*;
+import static kahoot.domain.Quiz.QUESTION_LIST;
+import static kahoot.style.StyleProject.*;
 
-public class QuizMaker extends Application {
+public class App extends Application {
     public static final ArrayList<ToggleGroup> TOGGLE_GROUPS = new ArrayList<>();
     public static final ArrayList<RadioButton[]> RADIO_BUTTONS = new ArrayList<>();
     public static final int WIDTH = 680;
@@ -101,7 +105,7 @@ public class QuizMaker extends Application {
         File songFile = new File("/Users/goofeat/IdeaProjects/project/src/resources/kahoot_music.mp3");
         Media songMedia = new Media(songFile.toURI().toString());
         songPlayer = new MediaPlayer(songMedia);
-        songPlayer.setVolume(0.);
+        songPlayer.setVolume(0.2);
     }
 
     @Override

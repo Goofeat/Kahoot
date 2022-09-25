@@ -1,4 +1,4 @@
-package kahoot;
+package kahoot.style;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -12,8 +12,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 
-import static kahoot.QuizMaker.RADIO_BUTTONS;
-import static kahoot.QuizMaker.TOGGLE_GROUPS;
+import static kahoot.App.RADIO_BUTTONS;
+import static kahoot.App.TOGGLE_GROUPS;
 
 public class StyleProject {
     public static final Font FONT = Font.font("Arial", 14);
