@@ -1,0 +1,19 @@
+export PATH_TO_FX=/Library/Java/JavaVirtualMachines/javafx-sdk-18/lib
+export KAHOOT_CLASSES=/Users/goofeat/IdeaProjects/demo/target/classes
+java -p $PATH_TO_FX:$KAHOOT_CLASSES -m kahoot/kahoot.QuizMaker
+
+
+java -p /Library/Java/JavaVirtualMachines/javafx-sdk-18/lib:/Users/goofeat/IdeaProjects/demo/target/classes -m kahoot/kahoot.QuizMaker
+
+
+What is the name of this Pokemon? {image}
+https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-mentatdgt-1049622.jpg
+Pikachu
+
+What is the name of this coffee shop brand? {image}
+https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-adrianna-calvo-597933.jpg
+Starbucks
+
+What is the name of this animal? {image}
+https://upload.wikimedia.org/wikipedia/commons/0/09/TheCheethcat.jpg
+Cheetah
